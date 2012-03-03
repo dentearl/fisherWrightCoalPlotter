@@ -27,6 +27,7 @@ Use this script to create nifty looking figures for your slides and papers that 
 
 ## Examples
 Note that the example images shown here are converted from vectors (.ps / .pdf) into .png so that they can be displayed on the web.
+
     ./fisherWrightCoalPlotter.py --popSize 10 > example1.dot && \
         dot -Tps2 example1.dot > example1.ps && \
         ps2pdf example1.ps example1.pdf
@@ -35,9 +36,9 @@ Note that the example images shown here are converted from vectors (.ps / .pdf) 
     ./fisherWrightCoalPlotter.py --popSize 20 --track 10 > example2.dot && \
         dot -Tps2 example2dot > example2.ps && \
         ps2pdf example2.ps example2.pdf
-![Example image](https://github.com/dentearl/fisherWrightCoalPlotter/raw/master/examplesImages/example02.png)
+![Example image](https://github.com/dentearl/fisherWrightCoalPlotter/raw/master/exampleImages/example02.png)
 
     ./fisherWrightCoalPlotter.py --popSize 100 --track 10 --maxGens 100 > example3.dot && \
         dot -Tps2 example3.dot > example3.ps && \
         ps2pdf example3.ps example3.pdf
-![Example image](https://github.com/dentearl/fisherWrightCoalPlotter/raw/master/examplesImages/example03.png)
+![Example image](https://github.com/dentearl/fisherWrightCoalPlotter/raw/master/exampleImages/example03.png)
