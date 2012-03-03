@@ -176,9 +176,10 @@ def generateHistory(options):
    return popHistory, ogAlleles, currentGen
 
 def main():
-   usage = ('usage: %prog [options]\n\n'
+   usage = ('usage: %prog [options] > output.dot\n\n'
             '%prog can be used to generate Fisher-Wright process Coalescent\n'
-            'event plots. Fun for the whole family!')
+            'event plots. Fun for the whole family! Output is in .dot format\n'
+            'for use with graphviz\'s (http://www.graphviz.org/) dot program.')
    parser = OptionParser(usage=usage)
    initOptions(parser)
    (options, args) = parser.parse_args()

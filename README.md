@@ -15,7 +15,8 @@ Use this script to create nifty looking figures for your slides and papers that 
     Usage: fisherWrightCoalPlotter.py [options]
     
     fisherWrightCoalPlotter.py can be used to generate Fisher-Wright process Coalescent
-    event plots. Fun for the whole family!
+    event plots. Fun for the whole family! Output is in .dot format 
+    for use with graphviz's (http://www.graphviz.org/) dot program.
     
     Options:
       -h, --help            show this help message and exit
