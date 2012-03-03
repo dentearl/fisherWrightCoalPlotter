@@ -39,7 +39,7 @@ Note that the example images shown here are converted from vectors (.ps / .pdf) 
         ps2pdf example2.ps example2.pdf
 ![Example image](https://github.com/dentearl/fisherWrightCoalPlotter/raw/master/exampleImages/example02.png)
 
-    ./fisherWrightCoalPlotter.py --popSize 100 --track 10 --maxGens 100 > example3.dot && \
+    ./fisherWrightCoalPlotter.py --popSize 100 --track 10 --maxGens 20 > example3.dot && \
         dot -Tps2 example3.dot > example3.ps && \
         ps2pdf example3.ps example3.pdf
 ![Example image](https://github.com/dentearl/fisherWrightCoalPlotter/raw/master/exampleImages/example03.png)
