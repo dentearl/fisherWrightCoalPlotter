@@ -1,1 +1,0 @@
-./fisherWrightCoalPlot.py -n 10 > temp.dot; dot -Tps2 temp.dot > temp.ps ; ps2pdf temp.ps temp.pdf
